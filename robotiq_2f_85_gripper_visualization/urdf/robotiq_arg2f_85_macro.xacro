@@ -5,7 +5,7 @@
 
   <xacro:macro name="robotiq_arg2f_85" params="
     prefix 
-    transmission_hw_interface:=hardware/interface/EffortJointInterface"
+    transmission_hw_interface:=hardware_interface/EffortJointInterface"
   >
     <!-- Add URDF transmission elements (for ros_control) -->
     <xacro:robotiq_arg2f_85_transmission prefix="${prefix}" hw_interface="${transmission_hw_interface}"/>
