@@ -34,7 +34,7 @@
 
   <!-- Instantiate model for the REAL robot. -->
   <xacro:robotiq_arg2f_85 
-  prefix=""
+      prefix="${prefix}"
   transmission_hw_interface="$(arg transmission_hw_interface)"/>
 
   <!-- Mimic joints plugin-->
